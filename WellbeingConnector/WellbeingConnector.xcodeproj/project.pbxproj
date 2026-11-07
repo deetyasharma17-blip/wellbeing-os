@@ -1,0 +1,110 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA000001 /* WellbeingConnectorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000001 /* WellbeingConnectorApp.swift */; };
+		AA000002 /* ConnectorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000002 /* ConnectorTheme.swift */; };
+		AA000003 /* ConnectorModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000003 /* ConnectorModels.swift */; };
+		AA000004 /* ConnectorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000004 /* ConnectorModel.swift */; };
+		AA000005 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000005 /* RootView.swift */; };
+		AA000006 /* PermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000006 /* PermissionView.swift */; };
+		AA000007 /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000007 /* ReportView.swift */; };
+		AA000008 /* MonitoringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000008 /* MonitoringView.swift */; };
+		AA000009 /* WellbeingConnectorReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000009 /* WellbeingConnectorReport.swift */; };
+		AA000010 /* WellbeingConnectorReport.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = BB000011 /* WellbeingConnectorReport.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AA000011 /* WellbeingActivityMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB000014 /* WellbeingActivityMonitor.swift */; };
+		AA000012 /* WellbeingActivityMonitor.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = BB000015 /* WellbeingActivityMonitor.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB000001 /* WellbeingConnectorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellbeingConnectorApp.swift; sourceTree = "<group>"; };
+		BB000002 /* ConnectorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectorTheme.swift; sourceTree = "<group>"; };
+		BB000003 /* ConnectorModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectorModels.swift; sourceTree = "<group>"; };
+		BB000004 /* ConnectorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectorModel.swift; sourceTree = "<group>"; };
+		BB000005 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		BB000006 /* PermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionView.swift; sourceTree = "<group>"; };
+		BB000007 /* ReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportView.swift; sourceTree = "<group>"; };
+		BB000008 /* MonitoringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitoringView.swift; sourceTree = "<group>"; };
+		BB000009 /* WellbeingConnectorReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellbeingConnectorReport.swift; sourceTree = "<group>"; };
+		BB000010 /* WellbeingConnector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WellbeingConnector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB000011 /* WellbeingConnectorReport.appex */ = {isa = PBXFileReference; explicitFileType = wrapper.app-extension; includeInIndex = 0; path = WellbeingConnectorReport.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB000012 /* WellbeingConnector.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WellbeingConnector/WellbeingConnector.entitlements; sourceTree = "<group>"; };
+		BB000013 /* WellbeingConnectorReport.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WellbeingConnectorReport/WellbeingConnectorReport.entitlements; sourceTree = "<group>"; };
+		BB000014 /* WellbeingActivityMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellbeingActivityMonitor.swift; sourceTree = "<group>"; };
+		BB000015 /* WellbeingActivityMonitor.appex */ = {isa = PBXFileReference; explicitFileType = wrapper.app-extension; includeInIndex = 0; path = WellbeingActivityMonitor.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB000016 /* WellbeingActivityMonitor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WellbeingActivityMonitor/WellbeingActivityMonitor.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC000001 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		CC000002 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		CC000008 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC000007 /* Embed Foundation Extensions */ = {isa = PBXCopyFilesBuildPhase; buildActionMask = 2147483647; dstPath = ""; dstSubfolderSpec = 13; files = (AA000010, AA000012); name = "Embed Foundation Extensions"; runOnlyForDeploymentPostprocessing = 0; };
+		CC000009 /* Monitor Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD000001 = {isa = PBXGroup; children = (DD000002, DD000003, DD000005, DD000004); sourceTree = "<group>"; };
+		DD000002 /* WellbeingConnector */ = {isa = PBXGroup; children = (BB000001, BB000002, BB000003, BB000004, BB000005, BB000006, BB000007, BB000008, BB000012); path = WellbeingConnector; sourceTree = "<group>"; };
+		DD000003 /* WellbeingConnectorReport */ = {isa = PBXGroup; children = (BB000009, BB000013); path = WellbeingConnectorReport; sourceTree = "<group>"; };
+		DD000005 /* WellbeingActivityMonitor */ = {isa = PBXGroup; children = (BB000014, BB000016); path = WellbeingActivityMonitor; sourceTree = "<group>"; };
+		DD000004 /* Products */ = {isa = PBXGroup; children = (BB000010, BB000011); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE000001 /* WellbeingConnector */ = {isa = PBXNativeTarget; buildConfigurationList = FF000001; buildPhases = (CC000003, CC000001, CC000005, CC000007); buildRules = (); dependencies = (GG000001, GG000002); name = WellbeingConnector; productName = WellbeingConnector; productReference = BB000010; productType = "com.apple.product-type.application"; };
+		EE000002 /* WellbeingConnectorReport */ = {isa = PBXNativeTarget; buildConfigurationList = FF000002; buildPhases = (CC000004, CC000002, CC000006); buildRules = (); dependencies = (); name = WellbeingConnectorReport; productName = WellbeingConnectorReport; productReference = BB000011; productType = "com.apple.product-type.app-extension"; };
+		EE000003 /* WellbeingActivityMonitor */ = {isa = PBXNativeTarget; buildConfigurationList = FF000004; buildPhases = (CC000010, CC000008, CC000009); buildRules = (); dependencies = (); name = WellbeingActivityMonitor; productName = WellbeingActivityMonitor; productReference = BB000015; productType = "com.apple.product-type.app-extension"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11000001 /* Project object */ = {isa = PBXProject; attributes = { LastUpgradeCheck = 1600; ORGANIZATIONNAME = WellbeingOS; TargetAttributes = { EE000001 = {CreatedOnToolsVersion = 16.0;}; EE000002 = {CreatedOnToolsVersion = 16.0;}; EE000003 = {CreatedOnToolsVersion = 16.0;}; }; }; buildConfigurationList = FF000003; compatibilityVersion = "Xcode 15.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = DD000001; productRefGroup = DD000004; projectDirPath = ""; projectRoot = ""; targets = (EE000001, EE000002, EE000003); };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC000005 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		CC000006 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC000003 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (AA000001, AA000002, AA000003, AA000004, AA000005, AA000006, AA000007, AA000008); runOnlyForDeploymentPostprocessing = 0; };
+		CC000004 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (AA000009); runOnlyForDeploymentPostprocessing = 0; };
+		CC000010 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (AA000011); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		GG000001 = {isa = PBXTargetDependency; target = EE000002; targetProxy = HH000001; };
+		GG000002 = {isa = PBXTargetDependency; target = EE000003; targetProxy = HH000002; };
+/* End PBXTargetDependency section */
+
+/* Begin PBXContainerItemProxy section */
+		HH000001 = {isa = PBXContainerItemProxy; containerPortal = 11000001; proxyType = 1; remoteGlobalIDString = EE000002; remoteInfo = WellbeingConnectorReport; };
+		HH000002 = {isa = PBXContainerItemProxy; containerPortal = 11000001; proxyType = 1; remoteGlobalIDString = EE000003; remoteInfo = WellbeingActivityMonitor; };
+/* End PBXContainerItemProxy section */
+
+/* Begin XCBuildConfiguration section */
+		II000001 /* Debug app */ = {isa = XCBuildConfiguration; buildSettings = { CODE_SIGN_ENTITLEMENTS = WellbeingConnector/WellbeingConnector.entitlements; CODE_SIGN_STYLE = Automatic; DEVELOPMENT_TEAM = ""; INFOPLIST_FILE = WellbeingConnector/Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 16.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.wellbeingconnector; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Debug; };
+		II000002 /* Release app */ = {isa = XCBuildConfiguration; buildSettings = { CODE_SIGN_ENTITLEMENTS = WellbeingConnector/WellbeingConnector.entitlements; CODE_SIGN_STYLE = Automatic; DEVELOPMENT_TEAM = ""; INFOPLIST_FILE = WellbeingConnector/Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 16.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.wellbeingconnector; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Release; };
+		II000003 /* Debug extension */ = {isa = XCBuildConfiguration; buildSettings = { APPLICATION_EXTENSION_API_ONLY = YES; CODE_SIGN_ENTITLEMENTS = WellbeingConnectorReport/WellbeingConnectorReport.entitlements; CODE_SIGN_STYLE = Automatic; DEVELOPMENT_TEAM = ""; INFOPLIST_FILE = WellbeingConnectorReport/Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 16.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.wellbeingconnector.report; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Debug; };
+		II000004 /* Release extension */ = {isa = XCBuildConfiguration; buildSettings = { APPLICATION_EXTENSION_API_ONLY = YES; CODE_SIGN_ENTITLEMENTS = WellbeingConnectorReport/WellbeingConnectorReport.entitlements; CODE_SIGN_STYLE = Automatic; DEVELOPMENT_TEAM = ""; INFOPLIST_FILE = WellbeingConnectorReport/Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 16.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.wellbeingconnector.report; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Release; };
+		II000007 /* Debug monitor */ = {isa = XCBuildConfiguration; buildSettings = { APPLICATION_EXTENSION_API_ONLY = YES; CODE_SIGN_ENTITLEMENTS = WellbeingActivityMonitor/WellbeingActivityMonitor.entitlements; CODE_SIGN_STYLE = Automatic; DEVELOPMENT_TEAM = ""; INFOPLIST_FILE = WellbeingActivityMonitor/Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 16.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.wellbeingconnector.monitor; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Debug; };
+		II000008 /* Release monitor */ = {isa = XCBuildConfiguration; buildSettings = { APPLICATION_EXTENSION_API_ONLY = YES; CODE_SIGN_ENTITLEMENTS = WellbeingActivityMonitor/WellbeingActivityMonitor.entitlements; CODE_SIGN_STYLE = Automatic; DEVELOPMENT_TEAM = ""; INFOPLIST_FILE = WellbeingActivityMonitor/Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 16.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.wellbeingconnector.monitor; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Release; };
+		II000005 /* Debug project */ = {isa = XCBuildConfiguration; buildSettings = { ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; SWIFT_VERSION = 5.0; }; name = Debug; };
+		II000006 /* Release project */ = {isa = XCBuildConfiguration; buildSettings = { ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; SWIFT_VERSION = 5.0; }; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF000001 = {isa = XCConfigurationList; buildConfigurations = (II000001, II000002); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		FF000002 = {isa = XCConfigurationList; buildConfigurations = (II000003, II000004); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		FF000004 = {isa = XCConfigurationList; buildConfigurations = (II000007, II000008); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		FF000003 = {isa = XCConfigurationList; buildConfigurations = (II000005, II000006); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = 11000001;
+}
